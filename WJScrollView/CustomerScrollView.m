@@ -20,7 +20,8 @@
 
 #define BGColor [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
 #define NumberOfSinglePage 8 // 一个页面可容纳的最多按钮数
-#define ViewGap 25
+#define leftRightGap 25*WIDTH_RATE
+#define topBottomGap 25
 #define ViewMargin 20
 #define BtnWH 65
 
@@ -40,7 +41,7 @@
         // 属性初始值
         self.viewSize = CGSizeMake(BtnWH, BtnWH);
         self.numberOfSinglePage = NumberOfSinglePage;
-        self.viewGap = ViewGap;
+        self.viewGap = leftRightGap;
         self.viewMargin = ViewMargin;
         // 初始化
         [self initDataAndSubviews];
@@ -97,12 +98,13 @@
     
     // 添加按钮
     NSInteger maxCol = 4;
-    //NSInteger maxRow = 2;
-    CGFloat gap = self.viewGap * WIDTH_RATE; //按钮之间的间隙
+    NSInteger maxRow = 2;
     
     CGFloat btnW = self.viewSize.width * WIDTH_RATE;
     CGFloat btnH = self.viewSize.height * HEIGHT_RATE;
-    CGFloat margin = self.viewMargin; // 内边距
+    CGFloat leftRightMargin = (SCREEN_WIDTH - (maxCol * btnW + (maxCol-1) * leftRightGap))/2; // 左右内边距;
+    CGFloat topBottomMargin = (self.height - (maxRow * btnH + (topBottomGap+30)))/2;
+    
     NSInteger count = self.dataArr.count - (number * self.numberOfSinglePage);
     NSInteger indexCount;
     if (count > 0 && count <= self.numberOfSinglePage) {
@@ -133,11 +135,11 @@
         [btn setImage:[UIImage imageNamed:btnDic[@"image"]] forState:UIControlStateNormal];
         //[btn setTitle:btnDic[@"title"] forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
-        btn.titleLabel.font = [UIFont systemFontOfSize:14];
+        btn.titleLabel.font = [UIFont systemFontOfSize:13];
         // 设置图片frame
         
-        btn.x = col * (btnW + gap) + margin + number * self.width;
-        btn.y = row * (btnH + gap) + margin;
+        btn.x = col * (btnW + leftRightGap) + leftRightMargin + number * self.width;
+        btn.y = row * (btnH + topBottomGap) + topBottomMargin;
         
         btn.width = btnW;
         btn.height = btnH;
