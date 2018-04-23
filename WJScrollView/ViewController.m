@@ -7,41 +7,49 @@
 //
 
 #import "ViewController.h"
-#import "CustomerScrollView.h"
-#import "UIView+WJExtension.h"
+#import "WJScrollButtonView.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 #define ViewH 225
 
 @interface ViewController ()
 
-@property (nonatomic,strong) CustomerScrollView * btnScrollView;
-@property (nonatomic,strong) NSArray * dataArr;
+@property (nonatomic,strong) WJScrollButtonView * scrollBtnView;
+@property (nonatomic,strong) NSArray * dataSource;
+
 @end
 
 @implementation ViewController
 
--(NSArray *)dataArr{
+-(NSArray *)dataSource{
     
-    if (!_dataArr) {
+    if (!_dataSource) {
         NSString * path = [[NSBundle mainBundle] pathForResource:@"funKeyboardData.plist" ofType:nil];
-        _dataArr = [NSArray arrayWithContentsOfFile:path];
+        _dataSource = [NSArray arrayWithContentsOfFile:path];
     }
-    return _dataArr;
-}
-
--(CustomerScrollView *)btnScrollView{
-    
-    if (!_btnScrollView) {
-        _btnScrollView = [[CustomerScrollView alloc] initWithFrame:CGRectMake(0, self.view.height-ViewH, self.view.width, ViewH)];
-        
-    }
-    return _btnScrollView;
+    return _dataSource;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:self.btnScrollView];
+    // scroll btn view
+    
+    CGRect frame = CGRectMake(0, SCREEN_HEIGHT-ViewH, SCREEN_WIDTH, ViewH);
+    
+    _scrollBtnView = [[WJScrollButtonView alloc] initWithFrame:frame dataSource:self.dataSource];
+//    _scrollBtnView.LineSpacing = 10;
+//    _scrollBtnView.columnsSpacing = 10;
+    
+    _scrollBtnView.didClickBtn = ^(UIButton *btn) {
+        NSLog(@"click:%ld",btn.tag);
+    };
+    
+    [self.view addSubview:_scrollBtnView];
 }
+
+
 
 @end
