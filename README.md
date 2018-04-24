@@ -10,7 +10,7 @@
 
 ### 使用
 
-```
+```objc
 CGFloat ViewH = 225;
 CGRect frame = CGRectMake(0, SCREEN_HEIGHT-ViewH, SCREEN_WIDTH, ViewH);
 
