@@ -35,16 +35,6 @@ typedef void(^WJScrollButtonBlock)(UIButton *btn);
 @property (nonatomic,assign) CGSize btnSize;
 
 /**
- 顶部边距，上面一行按钮的最顶部距WJScrollButtonView的最顶端的距离。默认：
- */
-@property (nonatomic,assign) CGFloat topMargin;         // 上下外边距--
-
-/**
- 左右边距，按钮的最左端到WJScrollButtonView的最左端的距离，右边距同理，只需要设置一次即可。默认：
- */
-@property (nonatomic,assign) CGFloat leftRightMargin;   // 左右外边距--
-
-/**
  行间距，上下间隙,两排按钮水平方向之间的距离，默认：25
  */
 @property (nonatomic,assign) CGFloat LineSpacing;

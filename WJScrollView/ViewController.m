@@ -40,8 +40,9 @@
     CGRect frame = CGRectMake(0, SCREEN_HEIGHT-ViewH, SCREEN_WIDTH, ViewH);
     
     _scrollBtnView = [[WJScrollButtonView alloc] initWithFrame:frame dataSource:self.dataSource];
-//    _scrollBtnView.LineSpacing = 10;
-//    _scrollBtnView.columnsSpacing = 10;
+    
+    _scrollBtnView.LineSpacing = 10;
+    _scrollBtnView.columnsSpacing = 10;
     
     _scrollBtnView.didClickBtn = ^(UIButton *btn) {
         NSLog(@"click:%ld",btn.tag);
