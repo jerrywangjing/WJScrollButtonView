@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C48CD9831E097BFC0042D65E"
-               BuildableName = "WJScrollView.app"
-               BlueprintName = "WJScrollView"
-               ReferencedContainer = "container:WJScrollView.xcodeproj">
+               BuildableName = "WJScrollButtonView.app"
+               BlueprintName = "WJScrollButtonView"
+               ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C48CD99C1E097BFC0042D65E"
-               BuildableName = "WJScrollViewTests.xctest"
-               BlueprintName = "WJScrollViewTests"
-               ReferencedContainer = "container:WJScrollView.xcodeproj">
+               BuildableName = "WJScrollButtonViewTests.xctest"
+               BlueprintName = "WJScrollButtonViewTests"
+               ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C48CD9A71E097BFC0042D65E"
-               BuildableName = "WJScrollViewUITests.xctest"
-               BlueprintName = "WJScrollViewUITests"
-               ReferencedContainer = "container:WJScrollView.xcodeproj">
+               BuildableName = "WJScrollButtonViewUITests.xctest"
+               BlueprintName = "WJScrollButtonViewUITests"
+               ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C48CD9831E097BFC0042D65E"
-            BuildableName = "WJScrollView.app"
-            BlueprintName = "WJScrollView"
-            ReferencedContainer = "container:WJScrollView.xcodeproj">
+            BuildableName = "WJScrollButtonView.app"
+            BlueprintName = "WJScrollButtonView"
+            ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C48CD9831E097BFC0042D65E"
-            BuildableName = "WJScrollView.app"
-            BlueprintName = "WJScrollView"
-            ReferencedContainer = "container:WJScrollView.xcodeproj">
+            BuildableName = "WJScrollButtonView.app"
+            BlueprintName = "WJScrollButtonView"
+            ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C48CD9831E097BFC0042D65E"
-            BuildableName = "WJScrollView.app"
-            BlueprintName = "WJScrollView"
-            ReferencedContainer = "container:WJScrollView.xcodeproj">
+            BuildableName = "WJScrollButtonView.app"
+            BlueprintName = "WJScrollButtonView"
+            ReferencedContainer = "container:WJScrollButtonView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

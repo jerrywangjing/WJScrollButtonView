@@ -54,7 +54,7 @@
 
 /* Begin PBXFileReference section */
 		C42251961E09805B00E45388 /* funKeyboardData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = funKeyboardData.plist; sourceTree = "<group>"; };
-		C48CD9841E097BFC0042D65E /* WJScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CD9841E097BFC0042D65E /* WJScrollButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJScrollButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48CD9881E097BFC0042D65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C48CD98A1E097BFC0042D65E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C48CD98B1E097BFC0042D65E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,10 +64,10 @@
 		C48CD9931E097BFC0042D65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48CD9961E097BFC0042D65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C48CD9981E097BFC0042D65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C48CD99D1E097BFC0042D65E /* WJScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CD99D1E097BFC0042D65E /* WJScrollButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJScrollButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48CD9A11E097BFC0042D65E /* WJScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJScrollViewTests.m; sourceTree = "<group>"; };
 		C48CD9A31E097BFC0042D65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C48CD9A81E097BFC0042D65E /* WJScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48CD9A81E097BFC0042D65E /* WJScrollButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJScrollButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48CD9AC1E097BFC0042D65E /* WJScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJScrollViewUITests.m; sourceTree = "<group>"; };
 		C48CD9AE1E097BFC0042D65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FBA0E9208DE76100BFF133 /* NSString+WJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WJExtension.h"; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		C48CD97B1E097BFC0042D65E = {
 			isa = PBXGroup;
 			children = (
-				C48CD9861E097BFC0042D65E /* WJScrollView */,
-				C48CD9A01E097BFC0042D65E /* WJScrollViewTests */,
-				C48CD9AB1E097BFC0042D65E /* WJScrollViewUITests */,
+				C48CD9861E097BFC0042D65E /* WJScrollButtonView */,
+				C48CD9A01E097BFC0042D65E /* WJScrollButtonViewTests */,
+				C48CD9AB1E097BFC0042D65E /* WJScrollButtonViewUITests */,
 				C48CD9851E097BFC0042D65E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,19 +145,19 @@
 		C48CD9851E097BFC0042D65E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C48CD9841E097BFC0042D65E /* WJScrollView.app */,
-				C48CD99D1E097BFC0042D65E /* WJScrollViewTests.xctest */,
-				C48CD9A81E097BFC0042D65E /* WJScrollViewUITests.xctest */,
+				C48CD9841E097BFC0042D65E /* WJScrollButtonView.app */,
+				C48CD99D1E097BFC0042D65E /* WJScrollButtonViewTests.xctest */,
+				C48CD9A81E097BFC0042D65E /* WJScrollButtonViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C48CD9861E097BFC0042D65E /* WJScrollView */ = {
+		C48CD9861E097BFC0042D65E /* WJScrollButtonView */ = {
 			isa = PBXGroup;
 			children = (
 				C4FBA0F3208E3D5000BFF133 /* Lib */,
 				C4FBA0E8208DE76100BFF133 /* Category */,
-				C4FBA0E5208DE76100BFF133 /* WJScrollView */,
+				C4FBA0E5208DE76100BFF133 /* WJScrollButtonView */,
 				C48CD98A1E097BFC0042D65E /* AppDelegate.h */,
 				C48CD98B1E097BFC0042D65E /* AppDelegate.m */,
 				C48CD98D1E097BFC0042D65E /* ViewController.h */,
@@ -166,7 +166,7 @@
 				C48CD9951E097BFC0042D65E /* LaunchScreen.storyboard */,
 				C48CD9871E097BFC0042D65E /* Supporting Files */,
 			);
-			path = WJScrollView;
+			path = WJScrollButtonView;
 			sourceTree = "<group>";
 		};
 		C48CD9871E097BFC0042D65E /* Supporting Files */ = {
@@ -180,39 +180,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C48CD9A01E097BFC0042D65E /* WJScrollViewTests */ = {
+		C48CD9A01E097BFC0042D65E /* WJScrollButtonViewTests */ = {
 			isa = PBXGroup;
 			children = (
 				C48CD9A11E097BFC0042D65E /* WJScrollViewTests.m */,
 				C48CD9A31E097BFC0042D65E /* Info.plist */,
 			);
-			path = WJScrollViewTests;
+			path = WJScrollButtonViewTests;
 			sourceTree = "<group>";
 		};
-		C48CD9AB1E097BFC0042D65E /* WJScrollViewUITests */ = {
+		C48CD9AB1E097BFC0042D65E /* WJScrollButtonViewUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C48CD9AC1E097BFC0042D65E /* WJScrollViewUITests.m */,
 				C48CD9AE1E097BFC0042D65E /* Info.plist */,
 			);
-			path = WJScrollViewUITests;
+			path = WJScrollButtonViewUITests;
 			sourceTree = "<group>";
 		};
-		C4FBA0E5208DE76100BFF133 /* WJScrollView */ = {
+		C4FBA0E5208DE76100BFF133 /* WJScrollButtonView */ = {
 			isa = PBXGroup;
 			children = (
 				C4FBA0F0208E25B800BFF133 /* WJScrollButtonView.h */,
 				C4FBA0F1208E25B800BFF133 /* WJScrollButtonView.m */,
 			);
-			path = WJScrollView;
+			path = WJScrollButtonView;
 			sourceTree = "<group>";
 		};
 		C4FBA0E8208DE76100BFF133 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				C4FBA0E9208DE76100BFF133 /* NSString+WJExtension.h */,
-				C4FBA0EA208DE76100BFF133 /* UIView+WJExtension.h */,
 				C4FBA0EB208DE76100BFF133 /* NSString+WJExtension.m */,
+				C4FBA0EA208DE76100BFF133 /* UIView+WJExtension.h */,
 				C4FBA0EC208DE76100BFF133 /* UIView+WJExtension.m */,
 			);
 			path = Category;
@@ -265,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C48CD9831E097BFC0042D65E /* WJScrollView */ = {
+		C48CD9831E097BFC0042D65E /* WJScrollButtonView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48CD9B11E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollView" */;
+			buildConfigurationList = C48CD9B11E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonView" */;
 			buildPhases = (
 				C48CD9801E097BFC0042D65E /* Sources */,
 				C48CD9811E097BFC0042D65E /* Frameworks */,
@@ -277,14 +277,14 @@
 			);
 			dependencies = (
 			);
-			name = WJScrollView;
+			name = WJScrollButtonView;
 			productName = WJScrollView;
-			productReference = C48CD9841E097BFC0042D65E /* WJScrollView.app */;
+			productReference = C48CD9841E097BFC0042D65E /* WJScrollButtonView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C48CD99C1E097BFC0042D65E /* WJScrollViewTests */ = {
+		C48CD99C1E097BFC0042D65E /* WJScrollButtonViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48CD9B41E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollViewTests" */;
+			buildConfigurationList = C48CD9B41E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonViewTests" */;
 			buildPhases = (
 				C48CD9991E097BFC0042D65E /* Sources */,
 				C48CD99A1E097BFC0042D65E /* Frameworks */,
@@ -295,14 +295,14 @@
 			dependencies = (
 				C48CD99F1E097BFC0042D65E /* PBXTargetDependency */,
 			);
-			name = WJScrollViewTests;
+			name = WJScrollButtonViewTests;
 			productName = WJScrollViewTests;
-			productReference = C48CD99D1E097BFC0042D65E /* WJScrollViewTests.xctest */;
+			productReference = C48CD99D1E097BFC0042D65E /* WJScrollButtonViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C48CD9A71E097BFC0042D65E /* WJScrollViewUITests */ = {
+		C48CD9A71E097BFC0042D65E /* WJScrollButtonViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48CD9B71E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollViewUITests" */;
+			buildConfigurationList = C48CD9B71E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonViewUITests" */;
 			buildPhases = (
 				C48CD9A41E097BFC0042D65E /* Sources */,
 				C48CD9A51E097BFC0042D65E /* Frameworks */,
@@ -313,9 +313,9 @@
 			dependencies = (
 				C48CD9AA1E097BFC0042D65E /* PBXTargetDependency */,
 			);
-			name = WJScrollViewUITests;
+			name = WJScrollButtonViewUITests;
 			productName = WJScrollViewUITests;
-			productReference = C48CD9A81E097BFC0042D65E /* WJScrollViewUITests.xctest */;
+			productReference = C48CD9A81E097BFC0042D65E /* WJScrollButtonViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -329,6 +329,7 @@
 				TargetAttributes = {
 					C48CD9831E097BFC0042D65E = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = R5688PHUE9;
 						ProvisioningStyle = Automatic;
 					};
 					C48CD99C1E097BFC0042D65E = {
@@ -343,7 +344,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C48CD97F1E097BFC0042D65E /* Build configuration list for PBXProject "WJScrollView" */;
+			buildConfigurationList = C48CD97F1E097BFC0042D65E /* Build configuration list for PBXProject "WJScrollButtonView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -356,9 +357,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C48CD9831E097BFC0042D65E /* WJScrollView */,
-				C48CD99C1E097BFC0042D65E /* WJScrollViewTests */,
-				C48CD9A71E097BFC0042D65E /* WJScrollViewUITests */,
+				C48CD9831E097BFC0042D65E /* WJScrollButtonView */,
+				C48CD99C1E097BFC0042D65E /* WJScrollButtonViewTests */,
+				C48CD9A71E097BFC0042D65E /* WJScrollButtonViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -440,12 +441,12 @@
 /* Begin PBXTargetDependency section */
 		C48CD99F1E097BFC0042D65E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C48CD9831E097BFC0042D65E /* WJScrollView */;
+			target = C48CD9831E097BFC0042D65E /* WJScrollButtonView */;
 			targetProxy = C48CD99E1E097BFC0042D65E /* PBXContainerItemProxy */;
 		};
 		C48CD9AA1E097BFC0042D65E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C48CD9831E097BFC0042D65E /* WJScrollView */;
+			target = C48CD9831E097BFC0042D65E /* WJScrollButtonView */;
 			targetProxy = C48CD9A91E097BFC0042D65E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -564,10 +565,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WJScrollView/Info.plist;
+				DEVELOPMENT_TEAM = R5688PHUE9;
+				INFOPLIST_FILE = "$(SRCROOT)/WJScrollButtonView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.WJScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.wjscrollbuttonview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -575,10 +579,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WJScrollView/Info.plist;
+				DEVELOPMENT_TEAM = R5688PHUE9;
+				INFOPLIST_FILE = "$(SRCROOT)/WJScrollButtonView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.WJScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.wjscrollbuttonview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -590,7 +597,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.WJScrollViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJScrollView.app/WJScrollView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJScrollButtonView.app/WJScrollButtonView";
 			};
 			name = Debug;
 		};
@@ -602,7 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jerry.WJScrollViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJScrollView.app/WJScrollView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJScrollButtonView.app/WJScrollButtonView";
 			};
 			name = Release;
 		};
@@ -631,7 +638,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C48CD97F1E097BFC0042D65E /* Build configuration list for PBXProject "WJScrollView" */ = {
+		C48CD97F1E097BFC0042D65E /* Build configuration list for PBXProject "WJScrollButtonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C48CD9AF1E097BFC0042D65E /* Debug */,
@@ -640,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48CD9B11E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollView" */ = {
+		C48CD9B11E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C48CD9B21E097BFC0042D65E /* Debug */,
@@ -649,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48CD9B41E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollViewTests" */ = {
+		C48CD9B41E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C48CD9B51E097BFC0042D65E /* Debug */,
@@ -658,7 +665,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48CD9B71E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollViewUITests" */ = {
+		C48CD9B71E097BFC0042D65E /* Build configuration list for PBXNativeTarget "WJScrollButtonViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C48CD9B81E097BFC0042D65E /* Debug */,

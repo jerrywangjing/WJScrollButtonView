@@ -41,8 +41,8 @@
     
     _scrollBtnView = [[WJScrollButtonView alloc] initWithFrame:frame dataSource:self.dataSource];
     
-    _scrollBtnView.LineSpacing = 10;
-    _scrollBtnView.columnsSpacing = 10;
+//    _scrollBtnView.LineSpacing = 10;
+//    _scrollBtnView.columnsSpacing = 10;
     
     _scrollBtnView.didClickBtn = ^(UIButton *btn) {
         NSLog(@"click:%ld",btn.tag);
