@@ -10,7 +10,8 @@
 
 ### 使用
 
-```objective-c
+```
+CGFloat ViewH = 225;
 CGRect frame = CGRectMake(0, SCREEN_HEIGHT-ViewH, SCREEN_WIDTH, ViewH);
 
 _scrollBtnView = [[WJScrollButtonView alloc] initWithFrame:frame dataSource:self.dataSource];
