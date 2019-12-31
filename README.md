@@ -35,5 +35,5 @@ _scrollBtnView.didClickBtn = ^(UIButton *btn) {	// 回调block
 ### 交流学习/欢迎issues
 
 - 邮箱：wangjing268@163.com
-- QQ:495388884
+- Blog: wjerry.com
 - [简书](http://www.jianshu.com/u/187fc23bc390)
