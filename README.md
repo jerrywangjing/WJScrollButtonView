@@ -26,8 +26,6 @@ _scrollBtnView.didClickBtn = ^(UIButton *btn) {	// 回调block
 [self.view addSubview:_scrollBtnView];
 ```
 
-
-
 ### 功能图示
 
 ![example](https://github.com/jerrywangjing/WJScrollView/raw/master/screenShots/example.gif)
